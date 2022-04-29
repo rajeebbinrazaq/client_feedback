@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include tacten_client_feedback *.css
+recursive-include tacten_client_feedback *.csv
+recursive-include tacten_client_feedback *.html
+recursive-include tacten_client_feedback *.ico
+recursive-include tacten_client_feedback *.js
+recursive-include tacten_client_feedback *.json
+recursive-include tacten_client_feedback *.md
+recursive-include tacten_client_feedback *.png
+recursive-include tacten_client_feedback *.py
+recursive-include tacten_client_feedback *.svg
+recursive-include tacten_client_feedback *.txt
+recursive-exclude tacten_client_feedback *.pyc
