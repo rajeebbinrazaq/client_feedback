@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestPostsystemstudyphase(unittest.TestCase):
+class TestPostSystemStudyPhase(unittest.TestCase):
 	pass

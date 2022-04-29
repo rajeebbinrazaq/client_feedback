@@ -1,26 +1,104 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2022-04-29 01:51:19.102009",
+ "autoname": "PR-Phase.#####",
+ "creation": "2022-04-29 03:44:22.793688",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1"
+  "client_name",
+  "client_email_id",
+  "section_break_3",
+  "satisfy_overall_dev",
+  "informed_progress",
+  "timelines_milestones",
+  "informed_potential_risks",
+  "column_break_8",
+  "suggestions_to_improve",
+  "additional_resource_requirements",
+  "rate_interaction"
  ],
  "fields": [
   {
-   "fieldname": "name1",
+   "fieldname": "client_name",
    "fieldtype": "Data",
-   "label": "Name"
+   "in_list_view": 1,
+   "label": "Client Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "client_email_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Client Email Id",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "satisfy_overall_dev",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Are you satisfied with the overall development progress of the Solution?",
+   "options": "\nYes\nNo\nPartially",
+   "reqd": 1
+  },
+  {
+   "fieldname": "informed_progress",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Have you been kept informed of the progress?",
+   "options": "\nYes\nNo\nPartially",
+   "reqd": 1
+  },
+  {
+   "fieldname": "timelines_milestones",
+   "fieldtype": "Select",
+   "label": "Are you aware of the timelines and milestones?",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "informed_potential_risks",
+   "fieldtype": "Select",
+   "label": "Have you been kept informed of potential risks with their mitigation plan, if any?",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "suggestions_to_improve",
+   "fieldtype": "Small Text",
+   "label": "Do you have any suggestions to improve next sprint?",
+   "reqd": 1
+  },
+  {
+   "fieldname": "additional_resource_requirements",
+   "fieldtype": "Small Text",
+   "label": "Are there any additional resource requirements? If yes, please suggest.",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rate_interaction",
+   "fieldtype": "Select",
+   "label": "How would you rate your Interaction with our Business Analyst? (0=dissatisfied and 5=Very Satisfied)",
+   "options": "\n0\n1\n2\n3\n4\n5",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-04-29 01:51:19.102009",
+ "modified": "2022-04-29 03:44:22.793688",
  "modified_by": "Administrator",
  "module": "Tacten Client Feedback",
- "name": "Project phase",
+ "name": "Project Phase",
+ "name_case": "Title Case",
  "owner": "Administrator",
  "permissions": [
   {

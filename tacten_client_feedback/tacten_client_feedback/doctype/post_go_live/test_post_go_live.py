@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestPostgolive(unittest.TestCase):
+class TestPostGoLive(unittest.TestCase):
 	pass

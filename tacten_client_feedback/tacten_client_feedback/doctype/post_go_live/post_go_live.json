@@ -1,26 +1,101 @@
 {
  "actions": [],
  "allow_rename": 1,
- "creation": "2022-04-29 01:52:43.056507",
+ "creation": "2022-04-29 03:46:20.722404",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "name1"
+  "client_name",
+  "client_email_id",
+  "section_break_3",
+  "solution_met_req",
+  "engage_future_projects",
+  "rate_as_it_partner",
+  "difference_tacten_and_prevous_provider",
+  "column_break_8",
+  "tacten_strongest_weakest_points",
+  "rate_overall_experience",
+  "suggestion_feedback"
  ],
  "fields": [
   {
-   "fieldname": "name1",
+   "fieldname": "client_name",
    "fieldtype": "Data",
-   "label": "name"
+   "in_list_view": 1,
+   "label": "Client Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "client_email_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Client Email Id",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "solution_met_req",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Has the solution developed by Tacten met your requirements?",
+   "options": "\nYes\nNo\nPartially",
+   "reqd": 1
+  },
+  {
+   "fieldname": "engage_future_projects",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "How likely would you engage Tacten for any future projects?",
+   "options": "\nYes\nNo",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rate_as_it_partner",
+   "fieldtype": "Select",
+   "label": "Please rate your experience with Tacten as your IT partner( 0=dissatisfied and 5=Very Satisfied )",
+   "options": "\n0\n1\n2\n3\n4\n5",
+   "reqd": 1
+  },
+  {
+   "fieldname": "difference_tacten_and_prevous_provider",
+   "fieldtype": "Small Text",
+   "label": "Would you state one difference that you noticed in your interaction with Tacten from your previous service provider ?",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_8",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "tacten_strongest_weakest_points",
+   "fieldtype": "Small Text",
+   "label": "According to you what were Tacten's strongest and weakest points",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rate_overall_experience",
+   "fieldtype": "Select",
+   "label": "Considering your overall experience, how likely would you be to recommend us to others?( 0=dissatisfied and 5=Very Satisfied )",
+   "options": "\n0\n1\n2\n3\n4\n5",
+   "reqd": 1
+  },
+  {
+   "fieldname": "suggestion_feedback",
+   "fieldtype": "Small Text",
+   "label": "Do you have any other suggestions or feedback?",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2022-04-29 01:52:43.056507",
+ "modified": "2022-04-29 03:46:20.722404",
  "modified_by": "Administrator",
  "module": "Tacten Client Feedback",
- "name": "Post go live",
+ "name": "Post Go Live",
  "owner": "Administrator",
  "permissions": [
   {

@@ -4,5 +4,5 @@
 # import frappe
 import unittest
 
-class TestProjectphase(unittest.TestCase):
+class TestProjectPhase(unittest.TestCase):
 	pass
